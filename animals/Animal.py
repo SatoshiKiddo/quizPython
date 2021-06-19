@@ -1,6 +1,6 @@
 
 
-class Animal(Object):
+class Animal():
 
 	def __init__(self, fecha_ingreso, fecha_salida, precio, alimento, raza):
 		self.fecha_ingreso= fecha_ingreso
@@ -9,9 +9,9 @@ class Animal(Object):
 		self.alimento= alimento
 		self.raza= raza
 
-	def imprimirAtributos(self)
-		printf(self.fecha_ingreso)
-		printf(self.fecha_salida)
-		printf(self.precio)
-		printf(self.alimento)
-		printf(self.raza)
+	def imprimirAtributos(self):
+		print(self.fecha_ingreso)
+		print(self.fecha_salida)
+		print(self.precio)
+		print(self.alimento)
+		print(self.raza)

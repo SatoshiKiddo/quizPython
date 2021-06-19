@@ -1,4 +1,4 @@
-import animals
+from animals import Mamifero, Ave, Reptil, Mascota, Animal
 
 if __name__ == "__main__":
 	perro = Mamifero("cocky", "04/03/2021", "04/03/2021", 500, "perrarina", "cocker", 'p')
